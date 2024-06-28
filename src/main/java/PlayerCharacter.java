@@ -15,6 +15,17 @@ public class PlayerCharacter {
         if (direction == 'w') {
             y += 1;
         }
+
+        if (direction == 's') {
+            y -= 1;
+        }
+
+        if (direction == 'a') {
+            x -= 1;
+        }
+        if (direction == 'd') {
+            x += 1;
+        }
     }
 }
 
