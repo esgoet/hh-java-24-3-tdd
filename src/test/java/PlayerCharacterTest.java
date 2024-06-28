@@ -32,8 +32,8 @@ public class PlayerCharacterTest {
         //GIVEN
         char dir = 'w';
         //WHEN
-        int actual = PlayerCharacter.move(dir);
+        PlayerCharacter.move(dir);
         //THEN
-        assertEquals(1, actual);
+        assertEquals(1, PlayerCharacter.getY());
     }
 }

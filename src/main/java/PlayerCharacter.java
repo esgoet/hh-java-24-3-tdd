@@ -1,16 +1,20 @@
 public class PlayerCharacter {
+    static int x = 0;
+    static int y = 0;
 
     public static int getX(){
-        return 0;
+        return x;
 
     }
 
     public static int getY(){
-        return 0;
+        return y;
     }
 
-    public static int move(char direction){
-        return 1;
+    public static void move(char direction){
+        if (direction == 'w') {
+            y += 1;
+        }
     }
 }
 
