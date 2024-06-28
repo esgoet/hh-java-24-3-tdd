@@ -25,6 +25,15 @@ public class PlayerCharacterTest {
 
         //THEN
         assertEquals(0, actual);
+    }
 
+    @Test
+    public void moveTest_whenW_thenYEquals1() {
+        //GIVEN
+        char dir = 'w';
+        //WHEN
+        int actual = PlayerCharacter.move(dir);
+        //THEN
+        assertEquals(1, actual);
     }
 }

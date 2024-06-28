@@ -8,6 +8,10 @@ public class PlayerCharacter {
     public static int getY(){
         return 0;
     }
+
+    public static int move(char direction){
+        return 1;
+    }
 }
 
 
